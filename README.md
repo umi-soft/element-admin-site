@@ -14,6 +14,6 @@ npm install
 npm run dev
 ```
 
-open http://localhost:8080/
+open http://localhost:18080/
 
 > Generator by [vuepress](https://github.com/vuejs/vuepress)

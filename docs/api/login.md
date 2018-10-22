@@ -1,6 +1,7 @@
 # 登录
-## 验证授权
+## loginByUsername
 :::tip
+    验证授权，获取token信息
     POST /auth
 ### Request
     {
@@ -14,9 +15,11 @@
         data: String // token信息
     }
 :::
-## 获取用户与角色信息
+
+## getUserDetails
 :::tip
-    GET /user/info
+    获取用户与角色信息
+    GET /user-details
 ### Request
     {
         token: String // token信息
@@ -31,9 +34,11 @@
         }
     }
 :::
-## 构建VUE异步路由信息
+
+## getRouterRoles
 :::tip
-    POST /auth
+    构建VUE异步路由信息
+    GET /routers
 ### Request
     {
         token: String // token信息
@@ -45,7 +50,23 @@
         data: Map //[[menuId1,[roleId1...]],[menuId2,[roleId1...]]...]   Map结构
     }
 :::
-## 相关连接
+
+## logout
+:::tip
+    退出登录
+    GET /logout
+### Request
+    {
+        token: String // token信息
+    }
+### Response
+    {
+        code: Number,
+        message: String
+    }
+:::
+
+## Source
 :::tip
 + [API](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/api/login.js)
 + [Mock](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/mock/login.js)

@@ -3,7 +3,7 @@ home: true
 heroImage: /home.png
 title: a
 actionText: 快速上手 →
-actionLink: /guide/
+actionLink: /api/
 features:
   - title: 最佳实践
     details: 合理的框架选择，良好的工程实践助你持续产出高质量代码

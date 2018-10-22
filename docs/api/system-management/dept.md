@@ -1,12 +1,12 @@
 # 部门
-## 查询全部
+## queryAllDepts
 :::tip
     根据条件查询全部部门信息（不分页，非tree结构）
     POST /system/dept/query-all
 ### Request
     {
         filters: [{filed: String, value: String},...], //
-        sorts: [{filed: String, Value: [desc|esc]},...] //
+        sorts: [{filed: String, value: [desc|esc]},...] //
     }
 ### Response
     {
@@ -16,7 +16,7 @@
     }
 :::
 
-## 查询部门树
+## queryAllTreeDepts
 :::tip
     根据条件查询全部部门tree信息（不分页，返回tree结构数组）
     GET /system/dept/query-all-tree
@@ -32,7 +32,7 @@
     }
 :::
 
-## 增加新部门
+## addDept
 :::tip
     增加新部门，并完整返回该部门信息
     POST /system/dept/add
@@ -53,7 +53,7 @@
     }
 :::
 
-## 编辑部门
+## editDept
 :::tip
     编辑部门信息，后端告知前端结果即可
     POST /system/dept/edit
@@ -74,7 +74,7 @@
     }
 :::
 
-## 删除部门
+## delDept
 :::tip
     删除部门，后端告知前端结果即可
     GET /system/dept/del
@@ -89,7 +89,7 @@
     }
 :::
 
-## 查询全部部门用户
+## queryAllDeptUsers
 :::tip
     查询指定部门ID下的全部用户信息
     GET /system/dept/all-users
@@ -105,7 +105,7 @@
     }
 :::
 
-## 删除部门用户
+## delDeptUser
 :::tip
     删除部门下的某个用户，后端告知前端结果即可
     POST /system/dept/del-user
@@ -119,4 +119,10 @@
         code: Number,
         message: String
     }
+:::
+
+## Source
+:::tip
++ [API](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/api/system-management/dept.js)
++ [Mock](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/mock/system-management/dept.js)
 :::

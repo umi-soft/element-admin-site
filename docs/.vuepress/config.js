@@ -1,5 +1,5 @@
 module.exports = {
-  port: 6666,
+  port: 18080,
   title: 'element-admin',
   description: '基于ElementUI的基础脚手架工程',
   base: '/',
