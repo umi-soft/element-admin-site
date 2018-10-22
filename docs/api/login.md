@@ -11,7 +11,7 @@
     {
         code: Number,
         message: String,
-        data: String
+        data: String // token信息
     }
 :::
 ## 获取用户与角色信息
@@ -19,7 +19,7 @@
     GET /user/info
 ### Request
     {
-        token: String
+        token: String // token信息
     }
 ### Response
     {
@@ -36,7 +36,7 @@
     POST /auth
 ### Request
     {
-        token: String
+        token: String // token信息
     }
 ### Response
     {

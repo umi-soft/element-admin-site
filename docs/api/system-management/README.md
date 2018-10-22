@@ -1,5 +1,20 @@
 # 介绍
-## 涉及接口
-系统管理涉及的表结构主要有：
+## 主表
+:::tip
+涉及的主表主要有：
 + dept
-+ 
++ dictionary
++ group
++ menu
++ role
++ user
+:::
+## 中间表
+:::tip
+涉及的中间表主要有：
++ user_dept
++ user_group
++ user_role
++ role_menu
++ menu_url
+:::
