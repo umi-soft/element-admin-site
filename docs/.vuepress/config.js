@@ -1,7 +1,7 @@
 module.exports = {
   title: 'element-admin-site',
   description: '基于ElementUI的基础脚手架工程',
-  base: '/wiki/element-admin-site/',
+  base: '/element-admin-site/',
   head: [
     [
       'link',
