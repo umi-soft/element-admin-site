@@ -101,6 +101,23 @@
     }
 :::
 
+
+## editUserPassword
+:::tip
+    编辑用户密码信息，后端告知前端结果即可
+    POST /system/user/edit-password
+### Request
+    {
+        id: String,
+        password: String
+    }
+### Response
+    {
+        code: Number,
+        message: String
+    }
+:::
+
 ## delUser
 :::tip
     删除用户，后端告知前端结果即可
@@ -137,10 +154,10 @@
     增加用户角色信息，后端告知前端结果即可
     POST /system/user/add-role
 ### Request
-    {
+    [{
         userId: String,
         roleId: String
-    }
+    },...]
 ### Response
     {
         code: Number,
@@ -185,10 +202,10 @@
     增加用户部门信息，后端告知前端结果即可
     POST /system/user/add-dept
 ### Request
-    {
+    [{
         userId: String,
         deptId: String
-    }
+    },...]
 ### Response
     {
         code: Number,
@@ -233,10 +250,10 @@
     增加用户部门信息，后端告知前端结果即可
     POST /system/user/add-group
 ### Request
-    {
+    [{
         userId: String,
         groupId: String
-    }
+    },...]
 ### Response
     {
         code: Number,

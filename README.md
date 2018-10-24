@@ -2,8 +2,8 @@
 Documentation source of [element-admin](https://github.com/umi-soft/element-admin)
 
 ## online
-+ [element-admin](https://element-admin.umisoft.cn/)
-+ [element-admin-site](https://element-admin-site.umisoft.cn)
++ [element-admin](https://umi-soft.github.io/element-admin/)
++ [element-admin-site](https://umi-soft.github.io/element-admin-site/)
 
 ## Development
 
