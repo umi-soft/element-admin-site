@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /home.png
+heroImage: /umi-soft.svg
 title: a
 actionText: 快速上手 →
 actionLink: /api/

@@ -1,4 +1,18 @@
 # 登录
+## captcha
+:::tip
+    获取验证码（Base64转码）
+    GET /captcha
+### Request
+    {}
+### Response
+    {
+        code: Number,
+        message: String,
+        data: String // 验证码图片BASE64转码值
+    }
+:::
+
 ## loginByUsername
 :::tip
     验证授权，获取token信息
