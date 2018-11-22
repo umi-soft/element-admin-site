@@ -127,6 +127,6 @@
 
 ## Source
 :::tip
-+ [API](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/api/system-management/menu.js)
-+ [Mock](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/mock/system-management/menu.js)
++ [API](https://github.com/umi-soft/element-admin/tree/master/src/api/system-management/menu.js)
++ [Mock](https://github.com/umi-soft/element-admin/tree/master/src/mock/system-management/menu.js)
 :::

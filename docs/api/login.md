@@ -82,6 +82,6 @@
 
 ## Source
 :::tip
-+ [API](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/api/login.js)
-+ [Mock](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/mock/login.js)
++ [API](https://github.com/umi-soft/element-admin/tree/master/src/api/login.js)
++ [Mock](https://github.com/umi-soft/element-admin/tree/master/src/mock/login.js)
 :::

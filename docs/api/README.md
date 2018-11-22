@@ -9,5 +9,5 @@
 
 ## 相关连接
 :::tip
-+ [本工程路由异步加载可参见](http://gitlab.taiji.com.cn/vue/element-admin/tree/master/src/permission.js)
++ [本工程路由异步加载可参见](https://github.com/umi-soft/element-admin/tree/master/src/permission.js)
 :::
